@@ -1,7 +1,6 @@
 
-<img src="html/MK-Logo3.png">
-# Möbelkiste: Kunden
+<h1><img src="html/MK-Logo3.png" width=80px> Möbelkiste: Kunden </h1>
 
-Webanwendung für eine Kundendatenbank in PHP.
+<p> Webanwendung für eine Kundendatenbank in PHP.</p>
 
 
