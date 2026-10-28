@@ -1,0 +1,112 @@
+
+html { width:100%; 
+	text-align: center;
+}
+body {
+    /* width: 210mm; height: 297mm; */
+    background-color: white;
+	/* width:80%; */
+    display: inline-block;
+	text-align: left;
+    margin: 0px auto;
+	border: 2px solid orange;
+	border-top: 40px solid orange;
+	border-bottom: 40px solid orange;
+}
+
+/* ======================== Header   ======================= */
+table.title { margin-top:0px;
+	font-size:30px; height:40px; width:100%; padding-bottom:0px; margin-bottom:0px; 
+}
+table.title tr { margin-bottom:0px; padding-bottom:0px; }
+table.title td { margin-bottom:0px; padding-bottom:0px; }
+img.title { width:40px; padding-left:40px; padding-bottom:0px; margin-bottom:0px; }
+h1.title { padding-top:20px; }
+span.title { width:100%; text-align:center; vertical-align:middle; padding-bottom:0px; padding-left:40px; }
+span.logout { width:100%; padding-bottom:0px; margin-left:100px; padding-left:10px; padding-right:10px; 
+	text-decoration:none; border:4px solid blue; background-color:orange; }
+a.logout { text-decoration:none; color:blue; font-size:24px; }
+table.title a { color:blue; font-size:20px; text-decoration: none; }
+table.title div.logout { background-color:orange; border:8px solid blue; text-align:center; }
+table.title div.logout:hover { background-color:blue; color:white; }
+
+h1 img { width:40px; padding-left:40px; }
+table.menue h2 { margin-left:10px; padding-left:40px; width:80%; }
+table.menue { padding: 0px; background-color:#f9e9b9; }
+table.menue div { width:200px; background-color:lightgrey; box-shadow: 5px 10px grey; 
+		text-align:center; padding:10px; border:2px solid orange; margin:10px; margin-top:5px;
+	}
+table.menue a { color:black; font-size:20px; text-decoration: none; }
+
+div.copyright { text-align:center; color:black; background-color:white; padding:10px; font-size:large; }
+/* ======================== Fehlerausgabe ======================= */
+div.error { text-align:left; border:8px solid red; font-weight:bold;
+	margin:5px 20px 5px 20px; padding:5px 10px 5px 10px; }
+
+/* ======================== error.html ======================= */
+td.error { height:200px; }
+span.error { border:5px solid red; font-size:36px; padding:20px; margin:50px; }
+td.back { text-align:center; height:100px; }
+span.back { width:100%; padding-bottom:0px; margin-left:100px; padding-left:10px; padding-right:10px; 
+	border:4px solid blue; background-color:orange; font-size:30px; margin-bottom:40px; }
+a.back { text-decoration:none; color:blue; font-size:30px; }
+
+/* ======================== Liste aus list.php ======================= */
+table.list { border-collapse:collapse; margin:20px; font-size:14px; }
+table.list td { border: 2px solid orange; border-collapse:collapse; padding:5px; white-space:nowrap; }
+table.list th { border: 2px solid orange; border-collapse:collapse; border-bottom:5px solid orange; padding:5px; }
+table.kontakt { width:100%; border-collapse:collapse; margin:0px; }
+table.kontakt td { border: 2px solid orange; border-collapse:collapse; padding:5px; white-space:nowrap; }
+table.kontakt th { border: 2px solid orange; border-collapse:collapse; border-bottom:5px solid orange; padding:5px; }
+table.kontakt_nr { width:100%; border:none; margin:0px; }
+table.kontakt_nr td { border: none; padding:2px; white-space:nowrap; }
+table.kontakt_nr th { border: none; padding:2px; }
+.nomargin { margin:0px; }
+.nopadding { padding:0px; }
+
+/* ======================== Bereiche ======================= */
+table.frame { border-collapse:collapse; }
+table.frame td.title { background-color:white; }
+table.frame td.frame { border: 4px solid orange; border-collapse:collapse; }
+table.frame td.form { border: 4px solid orange; 
+	padding:0px; padding-left:30px; margin:0px; padding-top:40px;
+	font-size: 20px;
+	vertical-align: top;
+}
+/* ======================== Form ======================= */
+h2 { border-bottom:4px solid orange; font-size:24px; height:40px; width:100%; padding-bottom:10px; }
+td.form table { width:90%; }
+td.form td { padding:10px; }
+td.form td.submit { text-align:center; }
+td.form td.submit input { width:30%; padding:10px; margin:10px; background-color:orange; color:white; }
+
+td.download { text-align: center; font-size:20px; font-weight:bold; }
+td.download a { margin-left: 20px; }
+
+
+/* ======================= Kunden ===================================== */
+table.kunden { margin:0px; padding:0px; }
+table.kunden td { margin:0px; padding:5px; }
+select { padding:5px; margin:0px; white-space: nowrap; text-align: left; }
+input  { padding:5px; margin:0px; white-space: nowrap; text-align: left; 
+	font-size:16px; font-weight:bold;
+	}
+/* ======================= Kontakt ===================================== */
+table.Kontakt td     { padding:5px; margin:0px; font-size:20px; }
+table.Kontakt select { padding:5px; margin:0px; white-space: nowrap; text-align: left; }
+table.Kontakt input  { padding:5px; margin:0px; white-space: nowrap; text-align: left; 
+	font-size:16px; font-weight:bold;
+	}
+.expand { margin:0; font-size:24px; width:100%; background-color:blue; color:white; padding-left:10px; padding-right:10px; }
+
+/* ======================= Kontaktperson =============================== */
+table.Kontaktperson td     { padding:5px; margin:0px; font-size:20px; }
+table.Kontaktperson td.Kontaktperson  { padding-top:25px; }
+table.Kontaktperson label  { padding:0px; margin:0px; white-space: nowrap; text-align: left; }
+table.Kontaktperson select { padding:5px; margin:0px; white-space: nowrap; text-align: left; }
+table.Kontaktperson input  { padding:5px; margin:0px; white-space: nowrap; text-align: left; 
+	font-size:16px; font-weight:bold;
+	}
+
+/* ====================================================== */
+
